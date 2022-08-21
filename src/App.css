@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	font-family: "Montserrat", sans-serif;
+	user-select: none;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	height: 100vh;
+	width: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* HEADER */
+
+.header {
+	background-color: white;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+	font-size: 20px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid lightgray;
+}
+
+.space-shuttle {
+	color: #1b17e9;
+	margin: 0 30px;
+}
+
+.switch {
+	margin: 30px 0;
+	width: 150px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.switch div {
+	margin-right: 20px;
+}
+
+.on,
+.off {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	height: 40px;
+	width: 75px;
+	border: 1px solid lightgray;
+	color: #070663;
+}
+
+.on {
+	background-color: #070663;
+	color: white;
+}
+
+.go-no-way {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	width: 150px;
+	border-radius: 10px;
+	color: white;
+}
+
+.no-way {
+	background-color: red;
+}
+
+.go {
+	background-color: green;
+}
